@@ -1,0 +1,43 @@
+img{
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline{
+    display: inline-flex;
+}
+
+button{
+    padding: 15px;
+}
+
+.border{
+    border: 1px dotted gray;
+}
+
+@media (max-width:1280px){
+    img{
+        max-width: 50%;
+    }
+  }
+  
+  @media (max-width:500px){
+    img{
+        max-width: 90%;
+    }
+  }

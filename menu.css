@@ -1,0 +1,51 @@
+.title{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.581);
+}
+
+img{
+    max-width: 80%;
+    max-height: 300px;
+}
+
+.footer{
+    margin-top:30%;
+}
+
+.dish1, .dish2, .dish3, .dish4, .dish5{
+    background-color: #667c89;
+    color:white;
+}
+
+.hover1{
+    background-color: aliceblue;
+    color: #667c89;
+}
+
+
+@media (max-width:1280px){
+    img{
+        max-width: 50%;
+    }
+  }
+  
+@media (max-width:500px){
+    img{
+        max-width: 90%;
+    }
+  }
+
+@media screen and (max-width:800px){
+    .column1, .column2, .column3, .column4, .column5{
+        display:flex;
+        flex-direction: column;
+    }
+}

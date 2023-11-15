@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Surprise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="header w3-pale-blue">
+    <div class="w3-container w3-light-blue ">
+        <h1 class="w3-monospace w3-center w3-text-white w3-tooltip"><b>HCI Assignment 6</b></h1>
+    </div>
+    
+    <div class="w3-container w3-margin-bottom w3-blue-gray w3-padding-small">
+        <a href="index.html" class="w3-bar-item w3-button w3-mobile w3-left w3-hover-light-gray">Image Gallery</a>
+        <a href="dropdown.html" class="w3-bar-item w3-button w3-mobile w3-left w3-hover-light-gray">Dropdown Surprise</a>
+        <a href="calculator.html" class="w3-bar-item w3-button w3-mobile w3-left w3-light-gray w3-hover-light-gray">Price Calculator</a>
+        <a href="accordion.html" class="w3-bar-item w3-button w3-mobile w3-left w3-hover-light-gray">Accordion FAQs</a>
+        <a href="menu.html" class="w3-bar-item w3-button w3-mobile w3-left w3-hover-light-gray">Interactive Menu</a>
+    </div>
+
+    <div class="w3-center w3-panel w3-white w3-leftbar w3-rightbar w3-border-gray w3-animate-zoom title">
+        <p class="w3-center w3-xlarge "><b>Welcome to the Dynamic Price Calculator!</b></p>
+    </div>
+
+    <p class="w3-large w3-center">
+        Come and enjoy your shopping here!
+    </p>
+
+    <p class="w3-center w3-xxlarge w3-monospace"><b>Nasi Campur</b></p>
+    <img src="nasicampur.jpg" alt="nasi campur">
+    <p class="w3-center w3-large">The menu already includes some vegetables, one boiled egg, one chicken drumstick, and some sambal.</p>
+    
+    <div class="w3-center w3-container w3-white w3-border container">
+    <p id="amount_total" class="w3-large w3-center">Total Price: Rp 25000</p>
+    </div>
+
+    <p class="w3-large w3-center">Add something: </p>
+
+
+    <div class="w3-container w3-white container w3-center">
+    <br>
+    <b>Vegetables (Rp 5000)<br></b>
+    <div class="inline">
+        <button id="amount_v_min" class="w3-button">-</button>
+        <p id="amount_v" class="w3-margin">Amount: 0</p>
+        <button id="amount_v_plus" class="w3-button">+</button>
+    </div>
+
+    <div class="border"></div>
+
+    <br>
+    <b>Eggs (Rp 5000)<br></b>
+    <div class="inline">
+        <button id="amount_e_min" class="w3-button">-</button>
+        <p id="amount_e" class="w3-margin">Amount: 0</p>
+        <button id="amount_e_plus" class="w3-button">+</button>
+    </div>
+
+    <div class="border"></div>
+
+    <br>
+    <b>Chicken (Rp 10000)<br></b>
+    <div class="inline">
+        <button id="amount_c_min" class="w3-button">-</button>
+        <p id="amount_c" class="w3-margin">Amount: 0</p>
+        <button id="amount_c_plus" class="w3-button">+</button>
+    </div>
+
+    <div class="border"></div>
+
+    <br>
+    <b>Sambal (Rp 2000)<br></b>
+    <div class="inline">
+        <button id="amount_s_min" class="w3-button">-</button>
+        <p id="amount_s" class="w3-margin">Amount: 0</p>
+        <button id="amount_s_plus" class="w3-button">+</button>
+    </div>
+    <br>
+    
+    </div>
+
+    <br>
+
+    <div class="w3-container w3-center">
+        <button class="w3-button w3-white reset">Reset</button>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="footer w3-blue-gray w3-padding-small w3-center">
+        <p><b>Thank you for viewing!</b></p>
+        <p>Ellis Raputri - 2702298116</p>
+    </div>
+
+</body>
+</html>
